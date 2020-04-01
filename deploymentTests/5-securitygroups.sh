@@ -2,8 +2,8 @@
 go get -u github.com/jvehent/pineapple
 $GOPATH/bin/pineapple <<EOF
 aws:
-    region: us-east-1
-    accountnumber: 927034868273
+    region: us-west-2
+    accountnumber: 724831181620
 
 components:
     - name: load-balancer
