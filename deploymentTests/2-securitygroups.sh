@@ -1,5 +1,4 @@
 #!/bin/bash
-set -x
 go get -u github.com/jvehent/pineapple
 $GOPATH/bin/pineapple <<EOF
 aws:
