@@ -39,9 +39,9 @@ rules:
       dst: application
       dport: 80
 
-#    - src: application
-#      dst: database
-#      dport: 5432
+    - src: application
+      dst: database
+      dport: 5432
 
 #    - src: bastion
 #      dst: application
