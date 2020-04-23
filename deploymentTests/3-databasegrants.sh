@@ -5,7 +5,7 @@ grants="$(psql -U deployer \
 COPY ( 
     SELECT oid::regclass, acl.privilege_type
     FROM pg_class, aclexplode(relacl) AS acl
-    WHERE relacl IS NOT null AND acl.grantee=16431
+    WHERE relacl IS NOT null AND acl.grantee=16387
 ) TO STDOUT WITH CSV ')"
 
 EXPECTEDGRANTS=(
